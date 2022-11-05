@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YAMADA: sign up</title>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="./styles/signup.css">
+</head>
+<header>
+    <nav>
+        <div class="dropdown">
+            <a href="./homepage.html"><img class="logo" src="./images/yamada logo.svg"></a>
+            <div class="centermenu">
+                <a href="./homepage.html" class="home">Home</a>
+                <div class="projects">
+                    <button>Products
+                        <div class="dropdowncontent">
+                            <a href="./scooter.html">SCOOTER</a>
+                            <a href="#">SPORT BIKE</a>
+                            <a href="#">NAKED BIKE</a>
+                        </div>
+                    </button>
+                </div>
+                <div class="products">
+                    <a href="./aboutus.html"><button>About Us</button></a>
+                </div>
+            </div>
+            <div class="rightbutton">
+                <a href="./signup.html"><button class="signup">Sign Up</button></a>
+                <a href="./login.html"><button class="login">Login</button></a>
+            </div>
+        </div>
+    </nav>
+</header>
+<body>
+    <div class="title">
+        <h1>Register</h1>
+    </div>
+    <div class="formregister">
+        <div class="name">
+            <p>Name:</p>
+            <input id="nameinput">
+        </div>
+        <div class="email">
+            <p>Email:</p>
+            <input id="emailinput">
+        </div>
+        <div class="gender">
+            <label for="gender">Gender:</label><br>
+            <input id="genderinput" type="radio" name="gender" value="male">
+            <label for="male">Male</label>
+            <input id="genderinput" type="radio" name="gender" value="female">
+            <label for="female">Female</label>
+        </div>
+        <div class="city">
+            <label for="city">City</label><br>
+            <select>
+                <option value="----">----</option>
+                <option value="Jakarta">Jakarta</option>
+                <option value="Tangerang">Tangerang</option>
+            </select>
+        </div>
+        <div class="password">
+            <label for="password">Password:</label><br>
+            <input id="passwordinput" type="password">
+        </div>
+        <div class="retypepassword">
+            <label for="password">Confirm Password:</label><br>
+            <input id="retypepasswordinput" type="password">
+        </div>
+    </div>
+    <button type="submit" class="registerbutton">Register</button>
+</body>
+<footer>
+    <div class="socialmedia">
+        <a href="https://www.facebook.com/yamaholigan/" target=”_blank”><img src="./images/facebook.png"></a>
+        <a href="https://www.instagram.com/yamahaindonesia/" target=”_blank”><img src="./images/instagram.png"></a>
+        <a href="#"><img src="./images/twitter.png"></a>
+    </div>
+    <hr class="horizontalline">
+    <p>&#169; 2022 YAMADA motorcycle shop. All rights reserved.</p>
+    <p class="endfooter">Powered by Brian Giovanni Haryadi</p>
+</footer>
+</html>
